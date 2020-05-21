@@ -21,7 +21,7 @@ class Content extends React.Component {
             ? <p>Loading...</p> 
             : this.props.error
                 ? <p>Error, try again</p>
-                : <p><img src={this.props.url} alt='' style={{width: 500, height:'auto'}} /></p>}
+                : <p><img src={this.props.url} alt='' style={{width: 'auto', height:500}} /></p>}
       </div>
     )
   }
